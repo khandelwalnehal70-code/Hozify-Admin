@@ -1,4 +1,4 @@
-import "./Blog.css"
+import "./blog.css"
 import { FaCalendarAlt, FaClock, FaArrowRight } from "react-icons/fa";
 
 function Blog(){

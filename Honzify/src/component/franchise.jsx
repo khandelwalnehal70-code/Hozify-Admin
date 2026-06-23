@@ -1,4 +1,4 @@
-import "./Franchise.css"
+import "./franchise.css"
 import { FaArrowRight,FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 
