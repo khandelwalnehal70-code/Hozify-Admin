@@ -1,0 +1,203 @@
+.footer{
+    background: #f6f6f9;
+    margin-top: 80px;
+    padding-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    width: 100%;  
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  
+}
+.Foot3 ul,
+.Foot2 ul,
+.Foot1 ul{
+    list-style: none;
+}
+
+.Foot1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: blue;
+    text-align: justify;
+    
+}
+.Foot2 h4{
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:blue;
+    text-align: center;
+}
+.Foot3 h4{
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:blue;
+    text-align: center;
+}
+.Foot4 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color:blue;
+    text-align: justify;
+    gap: 10px;
+}
+
+.news .Butt{
+   margin-left: 10px;
+   gap: 1px;
+}
+.last{
+    justify-content: center;
+    padding-bottom: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.Foot4 p{
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 60px;
+
+}
+.left{
+    color:black;
+  line-height: 1.8;
+  font-size: 15px;
+  max-width: 260px;
+  border:black;
+  gap: 2px;
+  padding: 10px;
+}
+
+.left p{
+    font-size: 15px;
+    line-height: 1.8;
+    color : #8b93a7;
+}
+.Foot1 ul li{
+    margin-bottom: 15px;
+    margin-right: 10px;
+  color: black;
+  align-items: baseline;
+}
+.Foot2 ul li{
+    margin-bottom: 15px;
+    margin-right: 20px;
+  color: black;
+  
+}
+.Foot3 ul li{
+    margin-bottom: 15px;
+    margin-right: 10px;
+  color: black;
+  align-items: baseline;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+@media (max-width: 960px) {
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;    
+    padding: 40px 20px;     
+    gap: 40px;              
+  }
+
+ 
+  .left {
+    max-width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+ 
+  .Foot1, .Foot2, .Foot3, .Foot4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Foot1 h4, .Foot2 h4, .Foot3 h4, .Foot4 h4 {
+    text-align: center !important;
+    margin-left: 0 !important;
+  }
+
+  .Foot1 ul, .Foot2 ul, .Foot3 ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Foot1 ul li, .Foot2 ul li, .Foot3 ul li {
+    margin-right: 0 !important; 
+    text-align: center;
+  }
+
+  
+  .icons {
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  
+  .Foot4 p {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    text-align: center;
+  }
+
+
+  .news {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 15px;
+  }
+
+  .news input {
+    width: 90%;
+    max-width: 300px;
+    padding: 12px;
+  }
+
+  .news .Butt {
+    margin-left: 0 !important; 
+    width: 90%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .last h3 {
+    font-size: 14px;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
